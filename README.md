@@ -1,20 +1,3 @@
-input.onButtonPressed(Button.A, function () {
-    Kitronik_Move_Motor.move(Kitronik_Move_Motor.DriveDirections.Forward, 50)
-})
-input.onButtonPressed(Button.B, function () {
-    Kitronik_Move_Motor.stop()
-})
-basic.forever(function () {
-    pins.servoWritePin(AnalogPin.P15, 90)
-    basic.pause(50)
-    pins.servoWritePin(AnalogPin.P15, 135)
-    basic.pause(950)
-})
-
-
-
-> Open this page at [https://kimwerezak.github.io/readysetrobotlab-constantvelocitykitronik/](https://kimwerezak.github.io/readysetrobotlab-constantvelocitykitronik/)
-
 ## Use as Extension
 
 This repository can be added as an **extension** in MakeCode.
